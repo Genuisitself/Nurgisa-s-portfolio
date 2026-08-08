@@ -127,6 +127,10 @@ a {
     gap: 12px;
 }
 
+.hero-copy .hero-actions .btn-primary {
+    min-width: 280px;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -171,11 +175,9 @@ a {
 }
 
 .hero-media {
-    padding: 22px;
+    padding: 18px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
+    align-items: stretch;
 }
 
 .media-label {
@@ -201,6 +203,14 @@ a {
 
 .placeholder-box {
     min-height: 220px;
+}
+
+.hero-portrait {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
 }
 
 .section {
@@ -337,6 +347,10 @@ a {
 
 .cta-card .hero-actions {
     justify-content: center;
+}
+
+.section-cta .btn-primary {
+    min-width: 280px;
 }
 
 @media (max-width: 1040px) {
