@@ -370,18 +370,48 @@ a {
 @media (max-width: 760px) {
     .hero {
         padding-top: 16px;
-        gap: 26px;
+        gap: 22px;
     }
 
     .top-nav {
         gap: 10px;
         border-radius: 18px;
+        padding: 12px 14px;
     }
 
     .brand {
         width: 100%;
         margin-right: 0;
         margin-bottom: 4px;
+        font-size: 0.95rem;
+    }
+
+    .hero-copy h1 {
+        font-size: clamp(1.85rem, 8vw, 2.6rem);
+        margin-bottom: 14px;
+    }
+
+    .hero-subtext {
+        margin-bottom: 20px;
+        font-size: 0.98rem;
+    }
+
+    .hero-actions {
+        width: 100%;
+    }
+
+    .hero-copy .hero-actions .btn-primary,
+    .section-cta .btn-primary {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .hero-media {
+        padding: 12px;
     }
 
     .hero-grid,
@@ -394,11 +424,11 @@ a {
     }
 
     .video-placeholder {
-        min-height: 220px;
+        min-height: 200px;
     }
 
     .portfolio-video {
-        height: 350px;
+        height: 300px;
     }
 
     .featured {
@@ -406,7 +436,32 @@ a {
     }
 
     .hero-photo {
-        height: 280px;
+        height: 240px;
+    }
+
+    .hero-portrait {
+        min-height: 320px;
+    }
+
+    .result-card,
+    .process-step,
+    .portfolio-item,
+    .price-card,
+    .review-card,
+    .cta-card {
+        padding: 16px;
+    }
+
+    .section {
+        padding: 38px 0;
+    }
+
+    .section-head {
+        margin-bottom: 18px;
+    }
+
+    .section-cta {
+        padding-bottom: 44px;
     }
 }
 .hero-photo {
